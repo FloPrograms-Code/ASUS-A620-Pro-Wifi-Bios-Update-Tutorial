@@ -1,0 +1,41 @@
+Complete BIOS Update Guide for ASUS A620 Pro WiFi Motherboard
+Prepare for the Update
+Ensure your PC is connected to a stable power source.
+Backup important data.
+Use an empty USB stick (at least 8 GB).
+Check Current BIOS Version
+Enter BIOS by pressing "Delete" or F2 during boot.
+Note down the current BIOS version.
+Download the Latest BIOS
+Go to the ASUS support page.
+Download the latest BIOS zip file (this will contain the .CAP BIOS file and the BIOSRenamer.exe tool).
+Rename the BIOS File
+Extract the BIOS zip file.
+Inside the zip, find and run the BIOSRenamer.exe tool.
+The tool will automatically rename the .CAP file to the correct format for your motherboard (e.g., A620ProWiFi-ASUS-XXXX.CAP).
+Prepare the USB Stick
+Format the USB stick as FAT32.
+Copy only the renamed .CAP BIOS file to the root directory of the USB stick (do not put it in any folder).
+Update the BIOS
+Insert the USB stick into the motherboard.
+Enter BIOS by pressing "Delete" or F2 during boot.
+In the BIOS, go to the EZ Flash Utility and select the renamed .CAP BIOS file from the USB stick.
+Confirm the update and begin the process.
+After the Update
+Check the BIOS version to ensure the update was successful.
+Restore BIOS settings if needed, and save changes.
+Boot into Windows and verify everything is stable.
+Newest BIOS Version Available
+Version 3067
+Size: 14.66 MB
+Release Date: 2024/12/19
+SHA256: 10BDD344F52EF6682536B24619AC10705CB2E6AF0686D6DD13F6530E14D97FD2
+Changelog:
+
+Updated AMD AGESA to version 1.2.0.2b.
+Fixed a few fan-related bugs and improved overall system performance.
+Important Notes:
+1. Before running the USB BIOS Flashback tool, please rename the BIOS file (A5465.CAP) using BIOSRenamer.
+2. Your Computer will Restart and the screen on my Lenovo Legion R25i-30 was black simply unplugging and plugging back in of the hdmi cable worked for me.
+
+BIOS Zip File will also be added in the future!
